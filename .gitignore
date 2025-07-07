@@ -145,3 +145,8 @@ snakemake/logs/slurm/*.err
 snakemake/logs/slurm/*.out
 .DS_Store
 debuggin.ipynb
+
+# pixi environments
+.pixi
+*.egg-info
+pixi.lock

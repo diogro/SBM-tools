@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Diogo Melo <diogro@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "SBM-tools"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+graph-tool = ">=2.97,<3"
+ipython = ">=9.4.0,<10"
+jupyter = ">=1.1.1,<2"
+scikit-learn = ">=1.7.0,<2"
+dill = ">=0.4.0,<0.5"
+matplotlib = ">=3.10.3,<4"
+snakemake = ">=9.6.2,<10"
+ipykernel = ">=6.29.5,<7"
+pip = ">=25.1.1,<26"
+statsmodels = ">=0.14.4,<0.15"
